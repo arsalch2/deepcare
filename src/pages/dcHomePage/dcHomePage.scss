@@ -1,0 +1,21 @@
+.dCContainer {
+    max-width: var(--desingMaxWidth);
+    min-width: var(--designMinWidth);
+    border: 1px solid lightgray;
+}
+
+// Responsive Content and Context box
+.dcDynamicContentBody {
+    min-height: 100vh;
+}
+@media (min-width: 640px) {
+  .dcDynamicContentBody {
+    display: flex;
+  }
+  .contentContainer {
+    flex: 6;
+  }
+  .contextContainer {
+    flex: 1
+  }
+}

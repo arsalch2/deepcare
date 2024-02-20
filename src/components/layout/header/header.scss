@@ -1,0 +1,9 @@
+.dcLogoWidth {
+    max-width: 10rem;
+}
+.dcHeader{
+    max-width: var(--desingMaxWidth);
+    min-width: var(--designMinWidth);
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}

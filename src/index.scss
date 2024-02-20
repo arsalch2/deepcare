@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Global variables for CSS use
+:root {
+    --light-gray-100: #CFD8DC;
+    --blue-gray-600: #546E7A;
+    --purple: purple;
+    
+    --transition-timing: 0.25s;
+    --transition-timing-function: linear;
+    --desingMaxWidth : 1024px;
+    --designMinWidth : 480px;
+}
